@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2021 PixysOS
+# Copyright (C) 2018-2021 evolutionOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,10 +23,10 @@ $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# RRO (pixys)
+# RRO (evolution)
 PRODUCT_PACKAGES += \
-    PixysFrameworksSpacewar \
-    PixysSystemUISpacewar
+    EvolutionFrameworksSpacewar \
+    EvolutionSystemUISpacewar
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -272,7 +272,7 @@ PRODUCT_PACKAGES += \
 
 # Glyph
 PRODUCT_PACKAGES += \
-    PixysGlyphPhone1
+    EvolutionGlyphPhone1
 
 # GPS
 PRODUCT_PACKAGES += \
