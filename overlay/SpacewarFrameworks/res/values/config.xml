@@ -246,6 +246,8 @@
         <item>98</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
+    <bool name="config_supportsUdfps">true</bool>
+
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 
