@@ -732,4 +732,7 @@
     <!-- If an any motion sensor is not available, prefer the wrist tilt detector over the
      SMD. -->
     <bool name="config_autoPowerModePreferWristTilt">true</bool>
+
+    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false"></string>
 </resources>
